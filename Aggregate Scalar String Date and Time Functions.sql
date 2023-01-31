@@ -59,4 +59,4 @@ SELECT SUM(QUANTITY) from petrescue where DAY(RESCUEDATE) = '14';
 --Query C4: Animals rescued should see the vet within three days of arrivals. Enter a function that displays the third day from each rescue.
 SELECT (RESCUEDATE + 3 DAYS) from petrescue;
 --Query C5: Enter a function that displays the length of time the animals have been rescued; the difference between today’s date and the rescue date.
-SELECT (CURRENT_DATE - RESCUEDATE) from petrescue;
+SELECT (CURRENT_DATE - RESCUEDATE) from petrescue; 

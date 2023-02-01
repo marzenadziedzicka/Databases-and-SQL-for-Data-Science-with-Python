@@ -33,5 +33,5 @@ select * from EMPLOYEES E, JOBS J where E.JOB_ID = J.JOB_IDENT;
 select EMP_ID, F_NAME, L_NAME, JOB_TITLE from EMPLOYEES E, JOBS J where E.JOB_ID = J.JOB_IDENT; 
 
 --Redo the previous query, but specify the fully qualified column names with aliases in the SELECT clause.
-select E.EMP_ID, E.F_NAME, E.L_NAME, J.JOB_TITLE from EMPLOYEES E, JOBS J where E.JOB_ID = J.JOB_IDENT; 
+select E.EMP_ID, E.F_NAME, E.L_NAME, J.JOB_TITLE from EMPLOYEES E, JOBS J where E.JOB_ID = J.JOB_IDENT;  
 

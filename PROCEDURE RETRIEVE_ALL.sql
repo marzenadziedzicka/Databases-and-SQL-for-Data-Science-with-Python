@@ -16,4 +16,4 @@ BEGIN
     OPEN C1;                        -- Keeping the CURSOR C1 open so that result-set can be returned to the caller query
 
 END
-@                                   -- Routine termination character
+@                                   -- Routine termination character 
